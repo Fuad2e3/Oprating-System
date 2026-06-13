@@ -28,7 +28,7 @@ header() {
     echo -e "\t\t\t\t\t${CYAN}**************************************************************************${RESET}"
     echo -e "\t\t\t\t\t${CYAN}**\t              Nebula Navigator      \t\t\t\t**${RESET}"
     echo -e "\t\t\t\t\t${CYAN}**\t              A GALAXY STAR RECORD SYSTEM      \t\t\t**${RESET}"
-    echo -e "\t\t\t\t\t${CYAN}**\t              Developed by: Nazmul and Fuad     \t\t**${RESET}"
+    echo -e "\t\t\t\t\t${CYAN}**\t              Developed by: Fuad              \t\t**${RESET}"
     echo -e "\t\t\t\t\t${CYAN}**\t              Green University Bangladesh      \t\t\t**${RESET}"
     echo -e "\t\t\t\t\t${CYAN}**************************************************************************${RESET}"
 }
