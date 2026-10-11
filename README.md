@@ -12,7 +12,7 @@
 
 ---
 
-[Explore Features](#-features) • [Tech Stack](#-tech-stack) • [Project Structure](#-project-structure) • [Usage](#-getting-started)
+[Explore Features](#-features) • [Tech Stack](#-tech-stack) • [Project Structure](#-project-structure)
 
 </div>
 
@@ -59,31 +59,11 @@ Oprating-System/
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Prerequisites
-- Linux, macOS, or Windows WSL with GNU Bash.
-
-### 2. Permissions & Launch
-```bash
-cd "Nebula Navigator"
-chmod +x code.sh
-./code.sh
-```
-
-**Default Admin Credentials:**
-- **Username:** `admin`
-- **Password:** `admin123`
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Operating System | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
