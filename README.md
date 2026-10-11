@@ -1,91 +1,89 @@
-# Nebula Navigator: A Galaxy Star Record System
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows%20(WSL)-brightgreen.svg" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Bash-orange.svg" alt="Language">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
-</p>
+# 🌌 Nebula Navigator: Galaxy Star Record System
+### **Terminal-Based Astronomical Database & Unix POSIX Shell Scripting**
 
-<p align="center">
-  <b>Empowering astronomers with a robust, terminal-based star tracking ecosystem.</b>
-</p>
+[![Platform](https://img.shields.io/badge/Platform-Linux_%7C_WSL_%7C_macOS-brightgreen?style=for-the-badge&logo=linux&logoColor=white)](https://kernel.org)
+[![Language](https://img.shields.io/badge/Language-Bash_Script-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://gnu.org/software/bash/)
+[![Course](https://img.shields.io/badge/Course-Operating_Systems-8E75FF?style=for-the-badge)](https://green.edu.bd)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+**Empowering astronomers with a robust, POSIX terminal-based celestial object tracking ecosystem.**
+
+---
+
+[Explore Features](#-features) • [Tech Stack](#-tech-stack) • [Project Structure](#-project-structure) • [Usage](#-getting-started)
+
+</div>
 
 ---
 
 ## 🌌 Overview
+**Nebula Navigator** is a comprehensive Galaxy Star Record System developed as part of the Operating Systems course curriculum at **Green University of Bangladesh**. Built purely in **Bash**, it leverages standard Unix stream processors (`awk`, `sed`, `grep`, `sort`, `column`) and inter-process signals to deliver a lightweight, high-performance console database for celestial cataloging.
 
-**Nebula Navigator** is a comprehensive Galaxy Star Record System designed to manage and track stellar data efficiently through a terminal interface. Built with Bash, it provides a lightweight yet powerful solution for recording star positions, types, distances, and descriptions.
+---
 
 ## ✨ Features
 
-- 🔐 **Secure Access**: Multi-user login system with encrypted-style password verification.
-- ➕ **Stellar Entry**: Easily add new stars with auto-incrementing IDs.
-- 📋 **Comprehensive View**: List all recorded stars in a beautifully formatted table.
-- 🔍 **Advanced Search**: Find specific stars by their exact names (case-insensitive).
-- 📝 **Dynamic Editing**: Update star information on the fly.
-- 🗑️ **Secure Deletion**: Remove records with administrative password confirmation.
-- 📏 **Distance Tracking**: Check star distances and view a sorted list of all stars by proximity to Earth.
+- 🔐 **Multi-User Authentication:** Role-based administrative login system verifying credentials stored in `users.txt`.
+- ➕ **Stellar Record Indexing:** Automated sequential ID generation tracking celestial coordinates, spectral types, and light-year distances.
+- 📋 **Formatted Pipe-Delimited Table:** Colorized, dynamic column alignment rendered on-the-fly with `column -t`.
+- 🔍 **Regex Pattern Searching:** Case-insensitive astronomical entity search filtering by star catalog name.
+- 🗑️ **Atomic Record Management:** Protected record deletion with administrative confirmation preventing accidental data loss.
+- 📏 **Proximity Calculation:** High-speed sorting calculating star proximity from Earth using numerical Unix sort keys.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Scripting Language**: Bash
-- **Data Storage**: Plain text files (`data.txt`, `users.txt`)
-- **Tools**: `awk`, `grep`, `sed`, `column`, `sort`
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Scripting Language** | GNU Bash (Bourne-Again Shell) | Command interpreter & control flow |
+| **Stream Processors** | `awk`, `grep`, `sed`, `cut` | In-memory text manipulation & field splitting |
+| **Formatting** | `column`, `tput`, ANSI Codes | Terminal table formatting and screen buffering |
+| **Storage Engine** | Flat Pipe-Separated Files (`.txt`) | Lightweight POSIX file persistence |
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- A Unix-like environment (Linux, macOS, or WSL on Windows).
-- Bash shell installed.
-
-### Installation
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/Oprating-System.git
-    cd Oprating-System
-    ```
-
-2.  **Navigate to the project directory**:
-    ```bash
-    cd "Nebula Navigator"
-    ```
-
-3.  **Ensure permissions**:
-    ```bash
-    chmod +x code.sh
-    ```
-
-### Usage
-
-Run the main script to start the application:
-
-```bash
-./code.sh
-```
-
-**Default Admin Credentials:**
-- **Username**: `admin`
-- **Password**: `admin123`
+---
 
 ## 📂 Project Structure
 
 ```text
-.
-├── LICENSE                 # MIT License file
-├── README.md               # Project documentation
+Oprating-System/
+├── LICENSE                         # MIT License
+├── README.md                       # Project documentation
 └── Nebula Navigator/
-    ├── code.sh             # Main application script
-    ├── data.txt            # Stellar database (pipe-separated)
-    └── users.txt           # User credentials database
+    ├── code.sh                     # Main executable application shell script
+    ├── data.txt                    # Stellar database table (pipe-separated)
+    └── users.txt                   # User credentials database
 ```
 
-## 📄 License
+---
 
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- Linux, macOS, or Windows WSL with GNU Bash.
+
+### 2. Permissions & Launch
+```bash
+cd "Nebula Navigator"
+chmod +x code.sh
+./code.sh
+```
+
+**Default Admin Credentials:**
+- **Username:** `admin`
+- **Password:** `admin123`
+
+---
+
+## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad</b><br>
-  <i>Operating System | Green University of Bangladesh</i>
-</p>
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Operating System | Green University of Bangladesh*
+
+</div>
